@@ -25,6 +25,7 @@ Paper provides runnable server JARs directly from our
 [website's downloads page](https://papermc.io/downloads).
 
 Click on the build number to download a file.
+Its recemmeded to install the latest builds.
 
 ## Running the server
 
@@ -38,11 +39,17 @@ If you're just looking for a short command:
 ```bash
 java -Xms4G -Xmx4G -jar paper.jar --nogui
 ```
+If you want a gui for the server just delete the --nogui parameter
+
 Ensure you navigated your terminal to the directory of your server
 and that you have replaced `paper.jar` with the name of the JAR you have downloaded.
 
 The amount of RAM can be set by changing the numbers in the `Xmx` and `Xms` arguments.
 `--nogui` disables Vanilla's GUI, so you don't get double interfaces when using the command line.
+
+If your not so interested in using terminals and manual editing or your getting confused
+    - You can use the many tools that are out there to setup the server with some good ui
+    - You can use buy a server from the hosting platforms
 
 To configure your server, see the [Global Configuration](/paper/reference/global-configuration) and
 [Per World Configuration](/paper/reference/world-configuration) pages.
@@ -69,3 +76,5 @@ Paper is a drop in replacement for both CraftBukkit and Spigot, you don't need t
 
 Take a look at our [Next Steps](/paper/next-steps) guide to get your server up and running with the best performance and
 features.
+
+Still not enough or any ideas send us using github
